@@ -1,0 +1,100 @@
+/*Configuración general*/
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    color: white;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0  auto;
+}
+
+
+/*Medidas relativas y absolutas*/
+
+picture{
+    border: 3px solid white;
+    display: block;
+    text-align: center;
+}
+img{
+    width: 300px;
+}
+
+section{
+    height: auto;
+    width: 30em;
+    border: 3px solid white;
+
+}
+article{
+    height: auto;
+    width: 83em;
+    border: 3px solid white;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    border: 3px ridge white;
+    display: block;
+    margin: 10px 3px 2px 3px;
+    padding: 10px 9px 8px 6px;
+    overflow: auto;
+}
+
+span{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border: 2px solid white;
+    margin: 2px;
+}
+
+.box-1{
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.box-2{
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.box-3{
+    background-color: rgb(19, 236, 44);
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.box-4{
+    background-color: rgb(255, 0, 0);
+}
+.box-5{
+    background-color: rgb(242, 71, 20);
+}
+
+.box-1a{
+    background-color: brown;
+}
+.box-2a{
+    background-color: rgb(233, 13, 13);
+}
+.box-3a{
+    background-color: rgb(31, 131, 245);
+}
+.box-4a{
+    background-color: rgb(71, 13, 217);
+}
+
+.box-5a{
+    background-color: rgb(6, 61, 150);
+}

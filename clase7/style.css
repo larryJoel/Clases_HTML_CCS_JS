@@ -1,0 +1,67 @@
+
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:active{
+    color: orange;
+    background-color: black;
+}
+
+.cuadro:hover{
+    color:red;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border: 5 solid white;
+}
+
+.cuadro:active{
+    color: white;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border: 5 solid white;
+}
+
+.uno:focus{
+    background-color: black;
+    color: aliceblue;
+}
+
+:checked{
+    background-color: aqua;
+    margin-left: 50px;
+    border: 2px solid blue;
+}
+
+div p:last-child{
+    color: rgb(76,135,187);
+    background-color: rgb(223, 222, 229);
+    }
+
+p{
+    font-size: 16px;
+}
+.parrafo-main{
+    font-size: 18px;
+}
+
+#parrafo-ppal{
+    font-size: 20px;
+}
+
+.parrafo-diferenciado{
+    color: red;
+    font-size: 14px !important;
+}
+
+.div:nth-child(3){
+    color: red;
+    font-size: 14px !important;
+}

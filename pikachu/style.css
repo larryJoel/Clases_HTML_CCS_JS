@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+
+span{
+    display: block;
+    padding: 5px 15px 3px 15px;
+}
+
+p{
+    padding: 15px;
+}
+
+.tarjeta{
+    display:inline-block;
+    margin: 220px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: orange;
+    overflow: visible;
+}
+
+.titulo{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    top: -49px;
+    z-index: 1;
+}
+
+.imagen{
+    text-align: center;
+    
+}
+
+
+

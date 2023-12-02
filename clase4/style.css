@@ -1,0 +1,35 @@
+/* https://htmlcolorcodes.com/es/ */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(132, 135, 134);
+    border: 5px solid white;
+}
+
+li{
+    color: red;
+    font-size: 30px;
+}
+
+.parrafo_noticia{
+    text-align: justify;
+    background-color: blue;
+    color: white;   
+}
+
+#estilo_unico{
+    text-align: center;
+    color: black;
+    background-color: azure;
+    font-size: 30px;
+}
+
+/* .parrafo_noticia p{
+
+}
+#unico .parrafo_noticia{
+
+} */

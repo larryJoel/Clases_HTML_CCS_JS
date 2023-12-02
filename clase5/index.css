@@ -1,0 +1,27 @@
+/*oswald*/
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: #272CD3;
+}
+
+h2{
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Oswald',cursive;
+    font-size: 40px;
+}
+
+/*traer una fuente externa*/
+@font-face {
+    font-family: 'DancingScript-VariableFont_wght';
+    src: url(./fuente/DancingScript-VariableFont_wght.ttf);
+
+}
+.parrafo{
+    font-family:'DancingScript-VariableFont_wght';
+    font-weight: 800;
+    font-style: bold;
+}
